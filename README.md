@@ -56,10 +56,3 @@ $ curl -X PUT http://127.0.0.1:5000/item/edit -d '{"sr": "1", "item": "Setting u
 ```bash 
 $ curl -X DELETE http://127.0.0.1:5000/item/remove/1 -H 'Content-Type: application/json'
 ```
-
-Bug report:
-
-Updating task which is not present
-
-
-
